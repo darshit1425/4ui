@@ -288,8 +288,7 @@ class _screen1State extends State<screen1> {
                         padding: const EdgeInsets.all(5),
                         child: Icon(
                           Icons.podcasts_rounded,
-                          color: Colors.deepOrange.shade200
-                          ,
+                          color: Colors.deepOrange.shade200,
                         ),
                       ),
                       SizedBox(
@@ -371,9 +370,7 @@ class _screen1State extends State<screen1> {
                         padding: const EdgeInsets.all(5),
                         child: Icon(
                           Icons.data_usage,
-
-                          color: Colors.blue.shade300
-                          ,
+                          color: Colors.blue.shade300,
                         ),
                       ),
                       SizedBox(
@@ -388,7 +385,6 @@ class _screen1State extends State<screen1> {
                           width: 150,
                         ),
                       ),
-
                       Icon(
                         Icons.arrow_forward_ios,
                         size: 20,
@@ -414,10 +410,7 @@ class _screen1State extends State<screen1> {
                         padding: const EdgeInsets.all(5),
                         child: Icon(
                           Icons.more_horiz,
-
-                          color: Colors.blue.shade200
-
-                          ,
+                          color: Colors.blue.shade200,
                         ),
                       ),
                       SizedBox(
@@ -432,7 +425,6 @@ class _screen1State extends State<screen1> {
                           width: 150,
                         ),
                       ),
-
                       Icon(
                         Icons.arrow_forward_ios,
                         size: 20,
@@ -448,7 +440,11 @@ class _screen1State extends State<screen1> {
                 ),
                 Row(
                   children: [
-                    Text("PERSONAL",style: TextStyle(fontSize: 12,color: Colors.grey.shade500),),
+                    Text(
+                      "PERSONAL",
+                      style:
+                          TextStyle(fontSize: 16, color: Colors.grey.shade500),
+                    ),
                   ],
                 ),
               ],

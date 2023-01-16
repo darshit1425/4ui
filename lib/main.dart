@@ -9,8 +9,8 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/':(context)=>screen1(),
-       // '2':(context) => screen2(),
+        '/':(context)=>screen2(),
+
       }
 
     ),
